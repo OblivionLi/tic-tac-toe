@@ -10,7 +10,7 @@ A classic game of tic tac toe with multiple gamemodes and difficulties
 #### AI difficulties
 ---
 * `easy` AI => the AI chooses random coordinates on the board if the space is available
-* `medium` AI => the AI chooses random coordinates on the board if the space is available and alson there's no one winning; if the opponent almost won (is 1 symbol away from winning) the `medium` AI will block it and it will also place a symbol for itself to win if it is 1 symbol away from winning
+* `medium` AI => the AI chooses random coordinates on the board if the space is available and also there's no one winning; if the opponent almost won (is 1 symbol away from winning) the `medium` AI will block it and it will also place a symbol for itself to win if it is 1 symbol away from winning
 * `hard` AI => the AI uses the minimax algorithm to get its coordinates, choosing the best move possible for the given board; (you as a human, its near impossible to win, at best you can make a DRAW)
 ---
 #### Here is an example game being played by a real player and a hard AI
